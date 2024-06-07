@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="calco.css">
+</head>
+<body>
+   <div id="calco">
+    <input type="text" id="dis" readonly>
+    <div class="btn">
+      <button class="btnc" onclick="crdis ='';document.querySelector('#dis').value = crdis;">c</button>
+
+    <button class="btnc" onclick="crdis =crdis+'1' ;document.querySelector('#dis').value = crdis;">1
+    </button>
+
+    <button class="btnc" onclick="crdis =crdis+'2' ;document.querySelector('#dis').value = crdis;">2
+    </button>
+
+    <button class="btnc" onclick="crdis =crdis+'+' ;document.querySelector('#dis').value = crdis;">+
+    </button>
+
+    <button class="btnc" onclick="crdis =crdis+'3' ;document.querySelector('#dis').value = crdis;">3
+    </button>
+
+    <button class="btnc" onclick="crdis =crdis+'4' ;document.querySelector('#dis').value = crdis;">4
+    </button>
+
+    <button class="btnc" onclick="crdis =crdis+'-' ;document.querySelector('#dis').value = crdis;">-
+    </button>
+
+    <button class="btnc" onclick="crdis =crdis+'5' ;document.querySelector('#dis').value = crdis;">5
+    </button>
+
+    <button class="btnc" onclick="crdis =crdis+'6' ;document.querySelector('#dis').value = crdis;">6
+    </button>
+    <button class="btnc" onclick="crdis =crdis+'*' ;document.querySelector('#dis').value = crdis;">*
+    </button>
+
+    <button class="btnc" onclick="crdis =crdis+'7' ;document.querySelector('#dis').value = crdis;">7
+    </button>
+
+    <button class="btnc" onclick="crdis =crdis+'8' ;document.querySelector('#dis').value = crdis;">8
+    </button>
+
+    <button class="btnc" onclick="crdis =crdis+'/' ;document.querySelector('#dis').value = crdis;">/
+    </button>
+
+    <button class="btnc" onclick=" let r=eval(crdis); crdis =r ;document.querySelector('#dis').value = crdis;">=</button>
+
+    
+    <button class="btnc" onclick="crdis =crdis+'9' ;document.querySelector('#dis').value = crdis;">9
+    </button>
+    <button class="btnc" onclick="crdis =crdis+'0' ;document.querySelector('#dis').value = crdis;">0
+    </button>
+    <button class="btnc" onclick="crdis =crdis+'.' ;document.querySelector('#dis').value = crdis;">.
+    </button>
+    </div>
+
+   </div>
+
+   <script src="calco.js" > </script>
+   
+ 
+  
+</body>
+<footer>
+  <div class="huda">
+    Huda bhai Mun ke Valobase
+  </div>
+</footer>
+</html>
